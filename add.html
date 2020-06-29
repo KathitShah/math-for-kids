@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Addition</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Girassol&family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+  </head>
+  <body onload="addit()">
+    <h1>Add</h1>
+    <div class="container1">
+      <div id="hide">
+        <p id="addDigit1"></p>
+        <div class="para">
+          <div class="positive">+</div>
+          <div class="" id="addDigit2"></div>
+        </div>
+        <input id="addDigits" type="number" placeholder="Answer here" />
+        <br />
+        <br />
+        <button class="btn btn-primary btn-lg" onclick="add()">Submit</button>
+        <br />
+      </div>
+      <br />
+      <div class="btn-group btn-group-toggle">
+        <a
+          id="tryAgain"
+          class="btn btn-outline-dark btn-lg tryAgain"
+          href="add.html"
+          >Try Again</a
+        >
+        <a
+          id="goBack"
+          class="btn btn-outline-dark btn-lg goBack"
+          href="index.html"
+          >Go Back</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
