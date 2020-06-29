@@ -1,5 +1,5 @@
-var a = Math.round(Math.random() * 999 + 1);
-var b = Math.round(Math.random() * 999 + 1);
+var a = Math.round(Math.random() * 10 + 1);
+var b = Math.round(Math.random() * 10 + 1);
 var add1 = Math.round(Math.random() * 99999 + 1);
 var add2 = Math.round(Math.random() * 99999 + 1);
 function getRndInteger(max) {
